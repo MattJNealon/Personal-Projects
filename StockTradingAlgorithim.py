@@ -18,9 +18,9 @@ def EMA_trading_algo(self):
     api=tradeapi.REST('PKCTQ47YTNL73SJXQ9WO', 'WEq3Lxro//obIk3sy12qLC3cs2S2VsNG9PvRCuuZ', api_version='v2')
     account=api.get_account()
 #Email return enviornment
-    sender_address='mattalgotrader@gmail.com'
-    sender_password='AlgoMJN10299'
-    receiver_address='mjnealon@noctrl.edu'
+    sender_address='*******'
+    sender_password='******'
+    receiver_address='********'
 #Setup the mime
     message=MIMEMultipart()
     message['From']=("Trading Bot")
